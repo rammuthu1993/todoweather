@@ -1,6 +1,7 @@
 import { useState,useRef } from "react";
 import './Todo.css'
 import { EditTodo } from "./EditTodo";
+import { nanoid } from "nanoid";
 
 function Todolist(){
   const d = new Date()
@@ -17,7 +18,7 @@ function Todolist(){
   }
 
   function addTask(){
-    setTask([...task,{id:task.length+1,text:newtask,checked:false,isEdit:false}])
+    setTask([...task,{id:nanoid(),text:newtask,checked:false,isEdit:false}])
     console.log(task);
   }
 
