@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.table{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+table{
+    width: 400px;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+}

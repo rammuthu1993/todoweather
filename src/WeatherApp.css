@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px;
+}
+.header input{
+    border: none;
+    outline: none;
+    
+}
+.click{
+    cursor: pointer;
+}
+.main{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: antiquewhite;
+}
